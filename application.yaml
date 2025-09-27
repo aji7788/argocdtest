@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/aji7788/argocdtest.git
     targetRevision: HEAD
-    path: 
+    path: deployment.yaml
   destination: 
     server: https://kubernetes.default.svc
     namespace: mytest
